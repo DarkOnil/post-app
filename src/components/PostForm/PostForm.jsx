@@ -23,7 +23,7 @@ const PostForm = ({ onPostAdded }) => {
 
         setErrors(newErrors)
 
-        // Если объект newErrors пустой — ошибок нет, форма валидна
+       
         return Object.keys(newErrors).length === 0
     }
 
